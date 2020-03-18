@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Information about the City of Dallas and its services.",
+          "examplePhrases": [
+            "Alexa ask Dallas Info who is the mayor of Dallas?",
+            "Alexa ask Dallas Info how many employees does the City of Dallas have?",
+            "Alexa ask Dallas Info when is the Dallas City Council Meeting in March?"
+          ],
+          "keywords": [
+            "city",
+            "of",
+            "dallas",
+            "dallas"
+          ],
+          "name": "Dallas Info",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "description": "Detailed description coming soon.",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "N/A.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:154486504365:function:65f68698-b892-4865-9763-99703e2834eb:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

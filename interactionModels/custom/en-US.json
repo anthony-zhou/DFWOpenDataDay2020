@@ -1,0 +1,82 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "dallas info",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "MayorIntent",
+          "slots": [],
+          "samples": [
+            "Who is the mayor of Dallas"
+          ]
+        },
+        {
+          "name": "CouncilMeetingIntent",
+          "slots": [],
+          "samples": [
+            "When is the march city council meeting",
+            "When is the march dallas city council meeting",
+            "When is the city council meeting in March",
+            "When is the Dallas City Council Meeting in March",
+            "When\u0027s the Dallas City Council Meeting in March"
+          ]
+        },
+        {
+          "name": "NumberEmployeesIntent",
+          "slots": [],
+          "samples": [
+            "how many employees does the city of dallas have",
+            "how many employees does dallas have",
+            "how many employees does the city have"
+          ]
+        },
+        {
+          "name": "ValuesIntent",
+          "slots": [],
+          "samples": [
+            "What are the four E\u0027s of Dallas"
+          ]
+        },
+        {
+          "name": "CityManagerIntent",
+          "slots": [],
+          "samples": [
+            "Who is the City Manager",
+            "Who is the City Manager of Dallas"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
